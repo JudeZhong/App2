@@ -1,0 +1,49 @@
+
+<view class = "background">
+  <view class = "userInfo">
+    <van-row style="margin-left: 0px;margin-right: 0px;">
+
+      <van-col span="7">
+        <image class = "userImage" src = "https://img2.baidu.com/it/u=1960058469,2576593478&fm=26&fmt=auto"></image>
+      </van-col>
+
+      <van-col span="10">
+        <text class = "userName" style="position: absolute; left: 113rpx; top: 6rpx">value="sadsaaaaaaaaaaaaaaaa"</text>
+      </van-col>
+
+      <van-col span="7">
+        <button class="shareButton" style="position: relative; left: 290rpx; top: 16rpx">dsada</button>
+      </van-col>
+
+    </van-row>
+  </view>
+
+  <view class="content">
+    <textarea disabled="true" class = "title" value = "dsadadasdasadsadaddddddddddddddddddddddddddddddddddasdasdasdadss" auto-height></textarea>
+    <view class = "images">
+      <van-grid  column-num="3" border = "{{ false }}" square gutter="{{ 5 }}">
+        <van-grid-item wx:for="{{ 5 }}" >
+          <text >dsadaa</text>
+        </van-grid-item>
+      </van-grid> 
+    </view>
+  </view>
+
+  <view class = "menu">
+        <button class="menuButton1" >
+          <text>dad</text>
+        </button>
+
+        <button class="menuButton2" >
+        <text>dad</text>
+      </button>
+  </view>
+
+</view>
+
+
+
+
+
+
+<!-- src = "https://img2.baidu.com/it/u=1960058469,2576593478&fm=26&fmt=auto -->

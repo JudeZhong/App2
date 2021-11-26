@@ -1,0 +1,36 @@
+<!--pages/Create/Create.wxml-->
+<van-notice-bar
+  left-icon="volume-o" scrollable 
+  text="严禁发布色情、暴力及容易引起他人不适的内容！"
+/>
+
+
+<view class="section">
+  <textarea value="{{title}}" maxlength="200" bindblur="bindTextAreaBlur" auto-height placeholder="这一刻的想法...." />
+</view>
+
+<van-uploader class="upLoader" 
+    preview-size="6rem" 
+    file-list="{{ fileList }}" 
+    bind:after-read="afterRead" 
+    multiple="true"
+    max-count="9"
+    bind:delete="deleteImage"
+    deletable="true"
+    />
+<view style="margin-top: 2rem;">
+
+<view wx:if="{{fileList.length != 0  && titie != 'null'}}">
+  <button bindtap="submit" class = "uploadButton">
+  <text style="color: whitesmoke;">发布</text>
+  </button>
+</view>
+<view wx:else>
+  <button  class = "uploadButtonFalse">
+  <text style="color: white;">发布</text>
+</button>
+</view>
+
+</view>
+
+<button bindtap="ccccc">dsadsadsad</button>

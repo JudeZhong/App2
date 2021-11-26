@@ -1,0 +1,36 @@
+/* pages/Create/Create.wxss */
+.section{
+  margin-top: 1rem;
+  margin-left: 1rem;
+
+}
+
+.upLoader{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.uploadButton{
+  width:90%;
+  height: 3rem;
+  background-color: #6e4278e3;
+  text-emphasis-color: white;
+  text-decoration-color: white;
+  
+}
+
+.uploadButton:active{
+  width:90%;
+  height: 3rem;
+  background-color: #6e4278;
+}
+
+
+
+.uploadButtonFalse{
+  width:90%;
+  height: 3rem;
+  background-color: #6e42785b;
+  text-emphasis-color: white;
+  text-decoration-color: white;
+  
+}

@@ -1,0 +1,31 @@
+<!--pages/User/User.wxml-->
+
+  <van-row class="image">
+  <van-col span="12">
+    <view class="userinfo-avatar">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+  </van-col>
+  <van-col  span="12">
+    <open-data type="userNickName"></open-data>
+
+  </van-col>
+</van-row>
+
+
+
+
+<van-divider />
+<van-cell-group inset>
+  <van-cell title="我发布的"  is-link/>
+  <van-cell title="我收藏的"  is-link/>
+</van-cell-group>
+
+<van-divider />
+<van-cell-group inset>
+  <van-cell title="发布图文"  is-link bindtap="callBottomBar"/>
+  <van-cell title="发布视频"  is-link bindtap="callBottomBar"/>
+</van-cell-group>
+
+
+

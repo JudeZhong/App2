@@ -1,0 +1,12 @@
+/* pages/User/User.wxss */
+.image{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}

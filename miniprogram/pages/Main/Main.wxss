@@ -1,0 +1,113 @@
+/* pages/Main/Main.wxss */
+
+.background{
+  position: relative;
+  margin:5px auto;
+  border-radius:8px;
+  background:#6e42781a;
+  width: 98%;
+  height: fit-content;
+}
+
+.userInfo{
+  position: relative;
+  background: #6e427800;
+  width: 95%;
+  height:4rem;
+  margin: 2px auto;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom: 1px grey solid;
+}
+
+.userImage{
+  overflow: hidden;
+  width: 3rem;
+  height: 3rem;
+  margin: 8rpx;
+  border-radius: 50%;
+}
+
+.userName{
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 20rpx;
+  width: 200rpx;
+}
+
+.shareButton{
+  width: 4rem;
+  margin-right: 1px;
+  margin-top: -1px;
+}
+
+.content{
+  width: 95%;
+  background: rgba(128, 0, 128, 0);
+  margin: 5px auto;
+  border-bottom: 1px grey solid;
+}
+
+.title{
+  margin-left: 20rpx;
+}
+.images{
+  margin: 10px auto;
+  width: 100%;
+}
+
+.menu{
+  display:flex;
+  text-align: left;
+  margin-top: -5px;
+  width: 100%;
+  background: rgba(128, 0, 128, 0);
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+}
+
+.menuButton1{
+  display: inline;
+  margin-left: 0;
+  width: 50%;
+  background: rgba(102, 87, 102, 0);
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:0px;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-right: 2px rgba(128, 128, 128, 0.493) solid;
+}
+
+.menuButton1:active{
+  margin-left: 0;
+  width: 50%;
+  background: rgba(102, 87, 102, 0.356);
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:0px;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+}
+
+
+.menuButton2{
+  display: inline;
+  margin-right: 0;
+  width: 50%;
+  background: rgba(102, 87, 102, 0);
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:8px;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+
+}
+
+.menuButton2:active{
+
+  margin-right: 0;
+  width: 50%;
+  background: rgba(102, 87, 102, 0.356);
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:8px;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+}
